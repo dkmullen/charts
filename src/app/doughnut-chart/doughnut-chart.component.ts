@@ -8,23 +8,37 @@ import { ChartdataService } from '../chartdata.service';
 })
 
 export class DoughnutChartComponent implements OnInit {
-  public doughnutChartLabels = [];
-  public doughnutChartData = [];
-  public doughnutChartType = 'doughnut';
+  public chartLabels = [];
+  public chartData = [];
+  public chartType = 'doughnut';
+  public chartColors = ['red', 'blue', 'green'
+    // {backgroundColor: 'rgba(255, 99, 132, 0.2)', borderColor: 'rgba(255, 99, 132, 1)'},
+    // {backgroundColor: 'rgba(54, 162, 235, 0.2)', borderColor: 'rgba(54, 162, 235, 1)'}
+    // 'rgba(54, 162, 235, 0.2)',
+    // 'rgba(255, 206, 86, 0.2)',
+    // 'rgba(75, 192, 192, 0.2)',
+    // 'rgba(153, 102, 255, 0.2)',
+    // 'rgba(255, 159, 64, 0.2)',
+    // 'rgba(115, 146, 44, 0.2)',
+    // 'rgba(15, 46, 4, 0.2)'
+  ];
+
+  chartOptions = {
+    responsive: true
+  };
 
   constructor(private chartdata: ChartdataService) { }
 
   ngOnInit() {
     this.chartdata.getChartData().subscribe((res) => {
-      const data = res.stats.hardware.memory;
+      const obj = res['stats'].hardware.memory;
 
-      for (const property in data) {
-        if (data.hasOwnProperty(property)) {
-          this.doughnutChartLabels.push(property);
-          this.doughnutChartData.push(data[property]);
+      for (const property in obj) {
+        if (obj.hasOwnProperty(property)) {
+          this.chartLabels.push(property);
+          this.chartData.push(obj[property]);
         }
       }
     });
   }
-
 }

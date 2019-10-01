@@ -9,7 +9,6 @@ export class ChartdataService {
   constructor(private http: HttpClient) { }
 
   getChartData() {
-    // return this.http.get('http://usage.freenas.org/stats/latest.json');
     return this.http.get('/assets/latest.json');
   }
 }
