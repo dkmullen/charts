@@ -1,3 +1,16 @@
+<div class="container">
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+        <a class="nav-link" (click)="switchType('horizontalBar')">Bar Chart</a>
+        </li> 
+        <li class="nav-item">
+        <a class="nav-link" (click)="switchType('doughnut')">Doughnut Chart</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" (click)="switchType('line')">Line Chart</a>
+        </li>
+    </ul>
+<div>
 <h3 class="page-title">System Memory</h3>
-<p><span (click)="switchType('bar')">Doughnut</span></p>
-<ngx-chartjs [data]="data" [type]="type"></ngx-chartjs>
+<ngx-chartjs [data]="data" [type]="type" redraw="true"></ngx-chartjs>
+
