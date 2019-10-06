@@ -26,6 +26,10 @@ export class ChartTemplateComponent implements OnInit {
     this.type = type;
   }
 
+  parseServices() {
+
+  }
+
   getData(datatype?) {
     this.chartLabels = [];
     this.chartData = [];
@@ -43,6 +47,14 @@ export class ChartTemplateComponent implements OnInit {
         case 'disks':
           obj = hardware.disks.model;
           break;
+        case 'services':
+            let meObj = {};
+            for (let service in res['stats'].services) {
+                meObj = {...meObj, ...res['stats'].services[service].name};
+            }
+            obj = meObj; console.log(meObj)
+            break;
+
         default:
           obj = hardware.memory;
       };
