@@ -11,7 +11,7 @@
         </li>
     </ul>
 <div>
-<h4 class="page-title">Hardware: {{chartLabel | uppercase}}</h4>
+<h4 class="page-title">{{chartLabel | uppercase}}</h4>
 <ngx-chartjs [data]="data" [type]="type" redraw="true"></ngx-chartjs>
 <div class="container">
   <ul class="nav nav-tabs">
@@ -29,6 +29,9 @@
       </li>
       <li class="nav-item">
         <a class="nav-link" (click)="getData('services')">Services</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" (click)="getData('plugins')">Plugins</a>
       </li>
   </ul>
 <div>

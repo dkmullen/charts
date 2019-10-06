@@ -45,15 +45,22 @@ export class ChartTemplateComponent implements OnInit {
           obj = hardware.cpus;
           break;
         case 'disks':
-          obj = hardware.disks.model;
+          obj = {...{zero: 0}, ...hardware.disks.model};
           break;
         case 'services':
-            let meObj = {};
-            for (let service in res['stats'].services) {
-                meObj = {...meObj, ...res['stats'].services[service].name};
-            }
-            obj = meObj; console.log(meObj)
-            break;
+          let meServices = {};
+          for (let service in res['stats'].services) {
+              meServices = {...meServices, ...res['stats'].services[service].name};
+          }
+          obj = meServices;
+          break;
+        case 'plugins':
+          let mePlugins = {zero: 0};
+          for (let plugin in res['stats'].plugins) {
+              mePlugins = {...mePlugins, ...res['stats'].plugins[plugin].name};
+          }
+          obj = mePlugins;
+          break;
 
         default:
           obj = hardware.memory;
