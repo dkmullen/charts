@@ -9,7 +9,7 @@ export class ChartdataService {
   constructor(private http: HttpClient) { }
 
   getChartData() {
-    return this.http.get('/assets/1latest.json');
+    return this.http.get('assets/1latest.json');
   }
 
   getChart() {
