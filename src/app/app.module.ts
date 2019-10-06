@@ -24,7 +24,7 @@ const routes: Routes = [
   {path: 'radar-chart', component: RadarChartComponent},
   {path: 'line-chart', component: LineChartComponent},
   {path: 'chart-template', component: ChartTemplateComponent},
-  {path: '**', component: BarChartComponent }
+  {path: '**', component: ChartTemplateComponent }
 ];
 
 @NgModule({

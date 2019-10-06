@@ -13,7 +13,7 @@ export class ChartdataService {
   }
 
   getChart() {
-    let data = {
+    const data = {
       labels: [],
       datasets: [
         {
@@ -54,20 +54,20 @@ export class ChartdataService {
           ],
           borderWidth: 1,
         },
-        
+
       ],
       options: {
 
         plugins: {
-    
+
           colorschemes: {
-    
+
             scheme: 'Classic20'
-    
+
           }
-    
+
         }
-    
+
       }
     };
     return data;

@@ -2,7 +2,7 @@
     <ul class="nav nav-tabs">
         <li class="nav-item">
         <a class="nav-link" (click)="switchType('horizontalBar')">Bar Chart</a>
-        </li> 
+        </li>
         <li class="nav-item">
         <a class="nav-link" (click)="switchType('doughnut')">Doughnut Chart</a>
         </li>
@@ -11,6 +11,22 @@
         </li>
     </ul>
 <div>
-<h3 class="page-title">System Memory</h3>
+<h3 class="page-title">Hardware: {{chartLabel}}</h3>
 <ngx-chartjs [data]="data" [type]="type" redraw="true"></ngx-chartjs>
+<div class="container">
+  <ul class="nav nav-tabs">
+      <li class="nav-item">
+      <a class="nav-link" (click)="getData('disks')">Disks</a>
+      </li>
+      <li class="nav-item">
+      <a class="nav-link" (click)="getData('nics')">NICs</a>
+      </li>
+      <li class="nav-item">
+      <a class="nav-link" (click)="getData('memory')">Memory</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" (click)="getData('cpus')">CPUs</a>
+        </li>
+  </ul>
+<div>
 

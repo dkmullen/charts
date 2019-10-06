@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { ChartdataService } from '../chartdata.service';
-import { Classic20, HueCircle19, Tableau20 } from 'chartjs-plugin-colorschemes/src/colorschemes/colorschemes.tableau';
 import 'chartjs-plugin-colorschemes/src/plugins/plugin.colorschemes';
 
 
@@ -12,7 +11,7 @@ import 'chartjs-plugin-colorschemes/src/plugins/plugin.colorschemes';
 export class ChartTemplateComponent implements OnInit {
   public chartLabels = [];
   public chartData = [];
-  public chartLabel = 'System Memory';
+  public chartLabel: string;
   type;
 
   data: any;
@@ -21,29 +20,48 @@ export class ChartTemplateComponent implements OnInit {
 
   ngOnInit() {
     this.type = 'doughnut';
-    this.buildChart();
+    this.getData();
   }
 
   switchType(type) {
     this.type = type;
-    // this.buildChart();
   }
 
-  buildChart() {
+  getData(datatype?) {
+    this.chartLabels = [];
+    this.chartData = [];
+    datatype ? this.chartLabel = datatype : this.chartLabel = 'System Memory';
     this.chartdata.getChartData().subscribe((res) => {
-      const obj = res['stats'].hardware.memory;
-      for (const property in obj) {
-        if (obj.hasOwnProperty(property)) {
-          this.chartLabels.push(property);
-          this.chartData.push(obj[property]);
-        }
-      }
-      this.data = this.chartdata.getChart();
-      this.data.labels = this.chartLabels;
-      this.data.datasets[0].data = this.chartData;
-      this.data.datasets[0].label = this.chartLabel;
+      let obj;
+      const hardware = res['stats'].hardware;
+      switch(datatype) {
+        case 'nics':
+          obj = hardware.nics;
+          break;
+        case 'cpus':
+          obj = hardware.cpus;
+          break;
+        case 'disks':
+          obj = hardware.disks.model;
+          break;
+        default:
+          obj = hardware.memory;
+      };
+      this.buildChart(obj);
     });
   }
-  
+
+  buildChart(obj) {
+    for (const property in obj) {
+      if (obj.hasOwnProperty(property)) {
+        this.chartLabels.push(property);
+        this.chartData.push(obj[property]);
+      }
+    }
+    this.data = this.chartdata.getChart();
+    this.data.labels = this.chartLabels;
+    this.data.datasets[0].data = this.chartData;
+    this.data.datasets[0].label = this.chartLabel;
+  }
 
 }
