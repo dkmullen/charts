@@ -1,0 +1,1804 @@
+{
+ "systems": 65,
+ "country": {},
+ "total_capacity_gb": 615909,
+ "total_disks": 292,
+ "stats": {
+  "hardware": {
+   "cpus": {
+    "1": 2,
+    "12": 1,
+    "128": 1,
+    "16": 1,
+    "2": 15,
+    "20": 1,
+    "24": 4,
+    "4": 21,
+    "40": 1,
+    "6": 2,
+    "8": 16
+   },
+   "disks": {
+    "model": {
+     "16GB SATA Flash Drive": 2,
+     "32GB SATA Flash Drive": 1,
+     "ASM1153U ASM1153USB3.0TOS": 1,
+     "ASMT 2135": 1,
+     "ATA HGST HDN724040AL": 1,
+     "ATA HGST HMS5C4040AL": 1,
+     "ATA HGST HMS5C4040BL": 1,
+     "ATA HGST HUS724040AL": 3,
+     "ATA ST4000DM000-1F21": 1,
+     "ATA ST4000DM000-2AE1": 1,
+     "ATA WDC WD30EFRX-68A": 1,
+     "ATA WDC WD30EFRX-68E": 1,
+     "ATA WDC WD30EFRX-68N": 6,
+     "ATA WDC WD60EFRX-68L": 5,
+     "BHYVE SATA DISK": 4,
+     "Drevo X1 pro 64G": 1,
+     "HGST HDN724040ALE640": 1,
+     "HGST HDN726040ALE614": 1,
+     "HGST HMS5C4040ALE640": 2,
+     "HGST HTS541010A9E680": 1,
+     "HGST HUS724040ALA640": 1,
+     "Hitachi HDS5C3020ALA632": 1,
+     "Hitachi HDS5C3020BLE630": 3,
+     "Hitachi HDS721050CLA362": 2,
+     "Hitachi HTS545032B9A300": 1,
+     "Mass Storage Device": 1,
+     "OCZ-VERTEX450": 1,
+     "QEMU HARDDISK": 1,
+     "QEMU QEMU HARDDISK": 1,
+     "SAMSUNG HD103SJ": 1,
+     "SEAGATE ST6000NM0034": 4,
+     "SEAGATE ST9300653SS": 1,
+     "ST2000DM001-1ER164": 1,
+     "ST2000DM006-2DM164": 2,
+     "ST2000DM008-2FR102": 1,
+     "ST3000DM001-1ER166": 1,
+     "ST3500413AS": 1,
+     "ST4000DM004-2CV104": 2,
+     "ST4000VN000-1H4168": 2,
+     "Samsung SSD 850 EVO 250GB": 1,
+     "SanDisk Extreme": 1,
+     "SanDisk SDSSDA240G": 1,
+     "SanDisk SDSSDHP128G": 1,
+     "SanDisk Ultra Fit": 2,
+     "TOSHIBA DT01ABA200": 1,
+     "VMware Virtual SATA Hard Drive": 1,
+     "VMware Virtual disk": 4,
+     "WDC WD10EFRX-68FYTN0": 4,
+     "WDC WD10EFRX-68PJCN0": 1,
+     "WDC WD2002FAEX-007BA0": 4,
+     "WDC WD20EARS-00MVWB1": 1,
+     "WDC WD20EFRX-68EUZN0": 5,
+     "WDC WD20EZRX-00D8PB0": 1,
+     "WDC WD20EZRX-22D8PB0": 1,
+     "WDC WD30EFRX-68EUZN0": 4,
+     "WDC WD40EFRX-68N32N0": 5,
+     "WDC WD40EFRX-68WT0N0": 2,
+     "WDC WD5000AAKB-00H8A0": 1,
+     "WDC WD50EFRX-68MYMN1": 3,
+     "WDC WD50EZRX-11NWHB1": 1,
+     "WDC WD800AAJS-00PSA0": 1
+    }
+   },
+   "memory": {
+    "11GB": 2,
+    "127GB": 4,
+    "14GB": 1,
+    "15GB": 14,
+    "1GB": 1,
+    "23GB": 1,
+    "24GB": 1,
+    "255GB": 1,
+    "31GB": 9,
+    "3GB": 3,
+    "47GB": 1,
+    "5GB": 2,
+    "63GB": 1,
+    "71GB": 1,
+    "7GB": 22,
+    "9GB": 1
+   },
+   "nics": {
+    "1": 26,
+    "2": 27,
+    "3": 4,
+    "4": 3,
+    "5": 1,
+    "6": 2,
+    "7": 1,
+    "8": 1
+   }
+  },
+  "jails": {
+   "11.2-RELEASE": {
+    "nat": {
+     "false": 1
+    },
+    "release": {
+     "11.2-RELEASE": 1
+    },
+    "vnet": {
+     "true": 1
+    }
+   },
+   "11.2-RELEASE-p10": {
+    "nat": {
+     "false": 1
+    },
+    "release": {
+     "11.2-RELEASE-p10": 1
+    },
+    "vnet": {
+     "true": 1
+    }
+   },
+   "11.2-RELEASE-p11": {
+    "nat": {
+     "false": 1
+    },
+    "release": {
+     "11.2-RELEASE-p11": 1
+    },
+    "vnet": {
+     "true": 1
+    }
+   },
+   "11.2-RELEASE-p12": {
+    "nat": {
+     "false": 4
+    },
+    "release": {
+     "11.2-RELEASE-p12": 4
+    },
+    "vnet": {
+     "true": 4
+    }
+   },
+   "11.2-RELEASE-p13": {
+    "nat": {
+     "false": 2
+    },
+    "release": {
+     "11.2-RELEASE-p13": 2
+    },
+    "vnet": {
+     "true": 2
+    }
+   },
+   "11.2-RELEASE-p14": {
+    "nat": {
+     "false": 44
+    },
+    "release": {
+     "11.2-RELEASE-p14": 44
+    },
+    "vnet": {
+     "false": 7,
+     "true": 37
+    }
+   },
+   "11.2-RELEASE-p5": {
+    "nat": {
+     "true": 1
+    },
+    "release": {
+     "11.2-RELEASE-p5": 1
+    },
+    "vnet": {
+     "true": 1
+    }
+   },
+   "11.2-RELEASE-p6": {
+    "nat": {
+     "false": 1
+    },
+    "release": {
+     "11.2-RELEASE-p6": 1
+    },
+    "vnet": {
+     "false": 1
+    }
+   },
+   "11.2-RELEASE-p7": {
+    "nat": {
+     "false": 2
+    },
+    "release": {
+     "11.2-RELEASE-p7": 2
+    },
+    "vnet": {
+     "true": 2
+    }
+   },
+   "11.2-RELEASE-p8": {
+    "nat": {
+     "false": 3
+    },
+    "release": {
+     "11.2-RELEASE-p8": 3
+    },
+    "vnet": {
+     "false": 3
+    }
+   },
+   "11.2-RELEASE-p9": {
+    "nat": {
+     "false": 5
+    },
+    "release": {
+     "11.2-RELEASE-p9": 5
+    },
+    "vnet": {
+     "true": 5
+    }
+   },
+   "11.3-RELEASE": {
+    "nat": {
+     "false": 3
+    },
+    "release": {
+     "11.3-RELEASE": 3
+    },
+    "vnet": {
+     "true": 3
+    }
+   },
+   "11.3-RELEASE-p3": {
+    "nat": {
+     "false": 14
+    },
+    "release": {
+     "11.3-RELEASE-p3": 14
+    },
+    "vnet": {
+     "true": 14
+    }
+   },
+   "N/A": {
+    "nat": {
+     "true": 1
+    },
+    "release": {
+     "N/A": 1
+    },
+    "vnet": {
+     "true": 1
+    }
+   }
+  },
+  "legacy_ui_enabled": {
+   "false": 61
+  },
+  "network": {
+   "lags": {
+    "bge0": {
+     "members": {
+      "bge0": 1,
+      "bge1": 1
+     },
+     "type": {
+      "LACP": 1
+     }
+    },
+    "bge1": {
+     "members": {
+      "bge0": 1,
+      "bge1": 1
+     },
+     "type": {
+      "LACP": 1
+     }
+    },
+    "em0": {
+     "members": {
+      "em0": 1,
+      "em1": 1
+     },
+     "type": {
+      "LACP": 1
+     }
+    },
+    "em1": {
+     "members": {
+      "em0": 1,
+      "em1": 1
+     },
+     "type": {
+      "LACP": 1
+     }
+    },
+    "igb0": {
+     "members": {
+      "igb0": 1,
+      "igb1": 1
+     },
+     "type": {
+      "LACP": 1
+     }
+    },
+    "igb1": {
+     "members": {
+      "igb0": 1,
+      "igb1": 1
+     },
+     "type": {
+      "LACP": 1
+     }
+    }
+   },
+   "phys": {
+    "alc0": {
+     "dhcp": {
+      "false": 2,
+      "true": 1
+     },
+     "name": {
+      "alc0": 3
+     },
+     "slaac": {
+      "false": 3
+     }
+    },
+    "bce0": {
+     "dhcp": {
+      "false": 1,
+      "true": 1
+     },
+     "name": {
+      "bce0": 2
+     },
+     "slaac": {
+      "false": 2
+     }
+    },
+    "bce1": {
+     "dhcp": {
+      "false": 1,
+      "true": 1
+     },
+     "name": {
+      "bce1": 2
+     },
+     "slaac": {
+      "false": 2
+     }
+    },
+    "bce2": {
+     "dhcp": {
+      "false": 1
+     },
+     "name": {
+      "bce2": 1
+     },
+     "slaac": {
+      "false": 1
+     }
+    },
+    "bce3": {
+     "dhcp": {
+      "false": 1
+     },
+     "name": {
+      "bce3": 1
+     },
+     "slaac": {
+      "false": 1
+     }
+    },
+    "bge0": {
+     "dhcp": {
+      "false": 5,
+      "true": 1
+     },
+     "name": {
+      "bge0": 6
+     },
+     "slaac": {
+      "false": 5,
+      "true": 1
+     }
+    },
+    "bge1": {
+     "dhcp": {
+      "false": 5,
+      "true": 1
+     },
+     "name": {
+      "bge1": 6
+     },
+     "slaac": {
+      "false": 6
+     }
+    },
+    "bxe0": {
+     "dhcp": {
+      "true": 1
+     },
+     "name": {
+      "bxe0": 1
+     },
+     "slaac": {
+      "false": 1
+     }
+    },
+    "bxe1": {
+     "dhcp": {
+      "false": 1
+     },
+     "name": {
+      "bxe1": 1
+     },
+     "slaac": {
+      "false": 1
+     }
+    },
+    "cc0": {
+     "dhcp": {
+      "false": 1
+     },
+     "name": {
+      "cc0": 1
+     },
+     "slaac": {
+      "false": 1
+     }
+    },
+    "cc1": {
+     "dhcp": {
+      "false": 1
+     },
+     "name": {
+      "cc1": 1
+     },
+     "slaac": {
+      "false": 1
+     }
+    },
+    "cxgb0": {
+     "dhcp": {
+      "false": 1
+     },
+     "name": {
+      "cxgb0": 1
+     },
+     "slaac": {
+      "false": 1
+     }
+    },
+    "cxgb1": {
+     "dhcp": {
+      "false": 1
+     },
+     "name": {
+      "cxgb1": 1
+     },
+     "slaac": {
+      "false": 1
+     }
+    },
+    "em0": {
+     "dhcp": {
+      "false": 11,
+      "true": 9
+     },
+     "name": {
+      "em0": 20
+     },
+     "slaac": {
+      "false": 18,
+      "true": 2
+     }
+    },
+    "em1": {
+     "dhcp": {
+      "false": 2,
+      "true": 1
+     },
+     "name": {
+      "em1": 3
+     },
+     "slaac": {
+      "false": 3
+     }
+    },
+    "igb0": {
+     "dhcp": {
+      "false": 11,
+      "true": 7
+     },
+     "name": {
+      "igb0": 18
+     },
+     "slaac": {
+      "false": 18
+     }
+    },
+    "igb1": {
+     "dhcp": {
+      "false": 13,
+      "true": 3
+     },
+     "name": {
+      "igb1": 16
+     },
+     "slaac": {
+      "false": 16
+     }
+    },
+    "igb2": {
+     "dhcp": {
+      "false": 4
+     },
+     "name": {
+      "igb2": 4
+     },
+     "slaac": {
+      "false": 4
+     }
+    },
+    "igb3": {
+     "dhcp": {
+      "false": 4
+     },
+     "name": {
+      "igb3": 4
+     },
+     "slaac": {
+      "false": 4
+     }
+    },
+    "igb4": {
+     "dhcp": {
+      "false": 1
+     },
+     "name": {
+      "igb4": 1
+     },
+     "slaac": {
+      "false": 1
+     }
+    },
+    "ix0": {
+     "dhcp": {
+      "false": 1
+     },
+     "mtu": {
+      "9014": 1
+     },
+     "name": {
+      "ix0": 1
+     },
+     "slaac": {
+      "false": 1
+     }
+    },
+    "ixl0": {
+     "dhcp": {
+      "false": 4
+     },
+     "name": {
+      "ixl0": 4
+     },
+     "slaac": {
+      "false": 4
+     }
+    },
+    "ixl1": {
+     "dhcp": {
+      "false": 4
+     },
+     "name": {
+      "ixl1": 4
+     },
+     "slaac": {
+      "false": 4
+     }
+    },
+    "ixl2": {
+     "dhcp": {
+      "false": 1
+     },
+     "name": {
+      "ixl2": 1
+     },
+     "slaac": {
+      "false": 1
+     }
+    },
+    "ixl3": {
+     "dhcp": {
+      "false": 1
+     },
+     "name": {
+      "ixl3": 1
+     },
+     "slaac": {
+      "false": 1
+     }
+    },
+    "mlxen0": {
+     "dhcp": {
+      "false": 1
+     },
+     "name": {
+      "mlxen0": 1
+     },
+     "slaac": {
+      "false": 1
+     }
+    },
+    "ntb0": {
+     "dhcp": {
+      "false": 1
+     },
+     "name": {
+      "ntb0": 1
+     },
+     "slaac": {
+      "false": 1
+     }
+    },
+    "re0": {
+     "dhcp": {
+      "false": 2,
+      "true": 9
+     },
+     "name": {
+      "re0": 11
+     },
+     "slaac": {
+      "false": 10,
+      "true": 1
+     }
+    },
+    "re1": {
+     "dhcp": {
+      "false": 1
+     },
+     "name": {
+      "re1": 1
+     },
+     "slaac": {
+      "false": 1
+     }
+    },
+    "rl0": {
+     "dhcp": {
+      "true": 1
+     },
+     "name": {
+      "rl0": 1
+     },
+     "slaac": {
+      "false": 1
+     }
+    },
+    "ue0": {
+     "dhcp": {
+      "true": 2
+     },
+     "name": {
+      "ue0": 2
+     },
+     "slaac": {
+      "false": 2
+     }
+    },
+    "vmx0": {
+     "dhcp": {
+      "false": 2,
+      "true": 3
+     },
+     "mtu": {
+      "9000": 1
+     },
+     "name": {
+      "vmx0": 5
+     },
+     "slaac": {
+      "false": 5
+     }
+    },
+    "vtnet0": {
+     "dhcp": {
+      "false": 1,
+      "true": 3
+     },
+     "name": {
+      "vtnet0": 4
+     },
+     "slaac": {
+      "false": 4
+     }
+    },
+    "vtnet1": {
+     "dhcp": {
+      "false": 1
+     },
+     "name": {
+      "vtnet1": 1
+     },
+     "slaac": {
+      "false": 1
+     }
+    }
+   },
+   "vlans": {
+    "vlan1022": {
+     "name": {
+      "vlan1022": 1
+     },
+     "tag": {
+      "1022": 1
+     }
+    }
+   }
+  },
+  "platform": {
+   "FreeNAS": 65
+  },
+  "plugins": {
+   "Emby": {
+    "name": {
+     "Emby": 1
+    },
+    "version": {
+     "4.2.1.0": 1
+    }
+   },
+   "Nextcloud": {
+    "name": {
+     "Nextcloud": 1
+    },
+    "version": {
+     "16.0.3": 1
+    }
+   },
+   "Resilio": {
+    "name": {
+     "Resilio": 1
+    },
+    "version": {
+     "2.6.3": 1
+    }
+   },
+   "Syncthing": {
+    "name": {
+     "Syncthing": 1
+    },
+    "version": {
+     "1.2.0": 1
+    }
+   },
+   "clamav": {
+    "name": {
+     "clamav": 1
+    },
+    "version": {
+     "0.101.2": 1
+    }
+   },
+   "cloud": {
+    "name": {
+     "cloud": 1
+    },
+    "version": {
+     "16.0.4": 1
+    }
+   },
+   "gitlab": {
+    "name": {
+     "gitlab": 1
+    },
+    "version": {
+     "11.11.0": 1
+    }
+   },
+   "homebridge": {
+    "name": {
+     "homebridge": 1
+    },
+    "version": {
+     "N/A": 1
+    }
+   },
+   "mineos": {
+    "name": {
+     "mineos": 1
+    },
+    "version": {
+     "N/A": 1
+    }
+   },
+   "nextcloud": {
+    "name": {
+     "nextcloud": 2
+    },
+    "version": {
+     "16.0.4": 2
+    }
+   },
+   "nextcloud_2": {
+    "name": {
+     "nextcloud_2": 1
+    },
+    "version": {
+     "16.0.2": 1
+    }
+   },
+   "plex": {
+    "name": {
+     "plex": 7
+    },
+    "version": {
+     "1.16.3.1402": 1,
+     "1.16.4.1469": 1,
+     "N/A": 5
+    }
+   },
+   "plexmediaserver-plexpass": {
+    "name": {
+     "plexmediaserver-plexpass": 1
+    },
+    "version": {
+     "1.16.6.1592": 1
+    }
+   },
+   "plexpass": {
+    "name": {
+     "plexpass": 1
+    },
+    "version": {
+     "1.16.6.1592": 1
+    }
+   },
+   "plexpassjail": {
+    "name": {
+     "plexpassjail": 1
+    },
+    "version": {
+     "1.16.3.1402": 1
+    }
+   },
+   "qbittorrent": {
+    "name": {
+     "qbittorrent": 1
+    },
+    "version": {
+     "4.1.7": 1
+    }
+   },
+   "rslsync": {
+    "name": {
+     "rslsync": 1
+    },
+    "version": {
+     "2.6.3": 1
+    }
+   },
+   "transmission": {
+    "name": {
+     "transmission": 3
+    },
+    "version": {
+     "2.93": 1,
+     "2.94": 2
+    }
+   },
+   "transmission_2": {
+    "name": {
+     "transmission_2": 1
+    },
+    "version": {
+     "2.94": 1
+    }
+   },
+   "transmission_3": {
+    "name": {
+     "transmission_3": 1
+    },
+    "version": {
+     "2.94": 1
+    }
+   },
+   "unifi": {
+    "name": {
+     "unifi": 1
+    },
+    "version": {
+     "5.10.25": 1
+    }
+   }
+  },
+  "pools": {
+   "mirror": {
+    "capacity": {
+     "10322GB": 1,
+     "10601GB": 1,
+     "1797GB": 2,
+     "2696GB": 3,
+     "31805GB": 1,
+     "3595GB": 3,
+     "36GB": 1,
+     "4301GB": 1,
+     "7191GB": 1,
+     "8989GB": 2,
+     "898GB": 2
+    },
+    "disks": {
+     "12": 1,
+     "2": 14,
+     "4": 1,
+     "6": 2
+    },
+    "encryption": {
+     "false": 18
+    },
+    "l2arc": {
+     "false": 18
+    },
+    "type": {
+     "mirror": 18
+    },
+    "usedbychildren": {
+     "0GB": 5,
+     "10GB": 1,
+     "1202GB": 1,
+     "1418GB": 1,
+     "15GB": 1,
+     "1626GB": 1,
+     "19GB": 1,
+     "20GB": 1,
+     "2163GB": 1,
+     "258GB": 1,
+     "2940GB": 1,
+     "31GB": 1,
+     "45GB": 1,
+     "4GB": 1
+    },
+    "usedbydataset": {
+     "0GB": 12,
+     "1519GB": 1,
+     "1557GB": 1,
+     "3346GB": 1,
+     "3GB": 1,
+     "7153GB": 1,
+     "7528GB": 1
+    },
+    "usedbyrefreservation": {
+     "0GB": 18
+    },
+    "usedbysnapshots": {
+     "0GB": 15,
+     "14GB": 1,
+     "20GB": 1,
+     "300GB": 1
+    },
+    "vdevs": {
+     "1": 14,
+     "2": 1,
+     "3": 2,
+     "6": 1
+    },
+    "zil": {
+     "false": 17,
+     "true": 1
+    }
+   },
+   "raidz1": {
+    "capacity": {
+     "10451GB": 1,
+     "10737GB": 1,
+     "12877GB": 1,
+     "15676GB": 1,
+     "15882GB": 1,
+     "18636GB": 1,
+     "20901GB": 2,
+     "225GB": 1,
+     "2612GB": 1,
+     "3592GB": 2,
+     "41803GB": 1,
+     "5225GB": 3,
+     "5368GB": 2,
+     "6096GB": 1,
+     "7184GB": 3,
+     "7191GB": 1,
+     "7838GB": 2,
+     "892GB": 1
+    },
+    "disks": {
+     "3": 10,
+     "4": 13,
+     "6": 1,
+     "7": 1,
+     "8": 1
+    },
+    "encryption": {
+     "false": 26
+    },
+    "l2arc": {
+     "false": 23,
+     "true": 3
+    },
+    "type": {
+     "raidz1": 26
+    },
+    "usedbychildren": {
+     "0GB": 2,
+     "10104GB": 1,
+     "1173GB": 1,
+     "11890GB": 1,
+     "13823GB": 1,
+     "2016GB": 1,
+     "2032GB": 1,
+     "2273GB": 1,
+     "25GB": 1,
+     "2658GB": 1,
+     "2912GB": 1,
+     "2GB": 1,
+     "3045GB": 1,
+     "32250GB": 1,
+     "3271GB": 1,
+     "345GB": 1,
+     "34GB": 1,
+     "4010GB": 1,
+     "4644GB": 1,
+     "4GB": 1,
+     "5113GB": 1,
+     "6746GB": 1,
+     "78GB": 1,
+     "8815GB": 1,
+     "9097GB": 1
+    },
+    "usedbydataset": {
+     "0GB": 17,
+     "10GB": 1,
+     "197GB": 1,
+     "19GB": 1,
+     "2288GB": 1,
+     "2701GB": 1,
+     "3141GB": 1,
+     "3383GB": 1,
+     "4GB": 1,
+     "6518GB": 1
+    },
+    "usedbyrefreservation": {
+     "0GB": 26
+    },
+    "usedbysnapshots": {
+     "0GB": 26
+    },
+    "vdevs": {
+     "1": 24,
+     "2": 2
+    },
+    "zil": {
+     "false": 24,
+     "true": 2
+    }
+   },
+   "raidz2": {
+    "capacity": {
+     "10226GB": 1,
+     "13690GB": 1,
+     "28739GB": 1,
+     "30678GB": 2,
+     "3612GB": 1,
+     "7184GB": 2
+    },
+    "disks": {
+     "10": 1,
+     "12": 1,
+     "16": 1,
+     "4": 1,
+     "6": 2,
+     "8": 2
+    },
+    "encryption": {
+     "false": 8
+    },
+    "l2arc": {
+     "false": 5,
+     "true": 3
+    },
+    "type": {
+     "raidz2": 8
+    },
+    "usedbychildren": {
+     "11247GB": 1,
+     "1GB": 1,
+     "23321GB": 1,
+     "2571GB": 1,
+     "2732GB": 1,
+     "6375GB": 1,
+     "64GB": 1,
+     "9300GB": 1
+    },
+    "usedbydataset": {
+     "0GB": 5,
+     "3390GB": 1,
+     "3GB": 1,
+     "4864GB": 1
+    },
+    "usedbyrefreservation": {
+     "0GB": 8
+    },
+    "usedbysnapshots": {
+     "0GB": 8
+    },
+    "vdevs": {
+     "1": 6,
+     "2": 2
+    },
+    "zil": {
+     "false": 7,
+     "true": 1
+    }
+   },
+   "raidz3": {
+    "capacity": {
+     "16406GB": 1,
+     "1790GB": 1
+    },
+    "disks": {
+     "5": 1,
+     "8": 1
+    },
+    "encryption": {
+     "false": 2
+    },
+    "l2arc": {
+     "false": 2
+    },
+    "type": {
+     "raidz3": 2
+    },
+    "usedbychildren": {
+     "1316GB": 1,
+     "9206GB": 1
+    },
+    "usedbydataset": {
+     "0GB": 2
+    },
+    "usedbyrefreservation": {
+     "0GB": 2
+    },
+    "usedbysnapshots": {
+     "0GB": 2
+    },
+    "vdevs": {
+     "1": 2
+    },
+    "zil": {
+     "false": 2
+    }
+   },
+   "stripe": {
+    "capacity": {
+     "105GB": 1,
+     "10787GB": 2,
+     "1348GB": 1,
+     "13GB": 1,
+     "1449GB": 1,
+     "1735GB": 1,
+     "1797GB": 2,
+     "213GB": 1,
+     "220GB": 1,
+     "2696GB": 1,
+     "3595GB": 1,
+     "36GB": 1,
+     "385GB": 1,
+     "445GB": 1,
+     "4494GB": 4,
+     "481GB": 1,
+     "5393GB": 2,
+     "55GB": 1,
+     "7191GB": 2,
+     "7212GB": 1,
+     "858GB": 1,
+     "891GB": 2,
+     "898GB": 3,
+     "9888GB": 1
+    },
+    "disks": {
+     "1": 27,
+     "2": 2,
+     "3": 1,
+     "4": 4
+    },
+    "encryption": {
+     "false": 34
+    },
+    "l2arc": {
+     "false": 33,
+     "true": 1
+    },
+    "type": {
+     "stripe": 34
+    },
+    "usedbychildren": {
+     "0GB": 10,
+     "1055GB": 1,
+     "1251GB": 1,
+     "146GB": 1,
+     "1624GB": 1,
+     "1710GB": 1,
+     "1GB": 2,
+     "227GB": 1,
+     "263GB": 1,
+     "282GB": 1,
+     "2892GB": 1,
+     "2GB": 1,
+     "33GB": 1,
+     "38GB": 1,
+     "447GB": 1,
+     "470GB": 1,
+     "48GB": 1,
+     "4GB": 1,
+     "505GB": 1,
+     "674GB": 1,
+     "6GB": 1,
+     "724GB": 1,
+     "80GB": 1,
+     "98GB": 1
+    },
+    "usedbydataset": {
+     "0GB": 20,
+     "1188GB": 1,
+     "11GB": 1,
+     "1888GB": 1,
+     "1GB": 2,
+     "222GB": 1,
+     "27GB": 1,
+     "2824GB": 1,
+     "3378GB": 1,
+     "513GB": 1,
+     "553GB": 1,
+     "6905GB": 1,
+     "769GB": 1,
+     "798GB": 1
+    },
+    "usedbyrefreservation": {
+     "0GB": 34
+    },
+    "usedbysnapshots": {
+     "0GB": 34
+    },
+    "vdevs": {
+     "1": 27,
+     "2": 2,
+     "3": 1,
+     "4": 4
+    },
+    "zil": {
+     "false": 33,
+     "true": 1
+    }
+   }
+  },
+  "services": {
+   "afp": {
+    "enabled": {
+     "false": 58,
+     "true": 7
+    },
+    "name": {
+     "afp": 65
+    }
+   },
+   "cifs": {
+    "enabled": {
+     "false": 15,
+     "true": 50
+    },
+    "name": {
+     "cifs": 65
+    }
+   },
+   "dynamicdns": {
+    "enabled": {
+     "false": 65
+    },
+    "name": {
+     "dynamicdns": 65
+    }
+   },
+   "ftp": {
+    "enabled": {
+     "false": 59,
+     "true": 6
+    },
+    "name": {
+     "ftp": 65
+    }
+   },
+   "iscsitarget": {
+    "enabled": {
+     "false": 55,
+     "true": 10
+    },
+    "name": {
+     "iscsitarget": 65
+    }
+   },
+   "lldp": {
+    "enabled": {
+     "false": 64,
+     "true": 1
+    },
+    "name": {
+     "lldp": 65
+    }
+   },
+   "netdata": {
+    "enabled": {
+     "false": 53,
+     "true": 7
+    },
+    "name": {
+     "netdata": 60
+    }
+   },
+   "nfs": {
+    "enabled": {
+     "false": 41,
+     "true": 24
+    },
+    "name": {
+     "nfs": 65
+    }
+   },
+   "openvpn_client": {
+    "enabled": {
+     "false": 2
+    },
+    "name": {
+     "openvpn_client": 2
+    }
+   },
+   "openvpn_server": {
+    "enabled": {
+     "false": 2
+    },
+    "name": {
+     "openvpn_server": 2
+    }
+   },
+   "rsync": {
+    "enabled": {
+     "false": 58,
+     "true": 7
+    },
+    "name": {
+     "rsync": 65
+    }
+   },
+   "s3": {
+    "enabled": {
+     "false": 64,
+     "true": 1
+    },
+    "name": {
+     "s3": 65
+    }
+   },
+   "smartd": {
+    "enabled": {
+     "false": 6,
+     "true": 59
+    },
+    "name": {
+     "smartd": 65
+    }
+   },
+   "snmp": {
+    "enabled": {
+     "false": 60,
+     "true": 5
+    },
+    "name": {
+     "snmp": 65
+    }
+   },
+   "ssh": {
+    "enabled": {
+     "false": 26,
+     "true": 39
+    },
+    "name": {
+     "ssh": 65
+    }
+   },
+   "tftp": {
+    "enabled": {
+     "false": 63,
+     "true": 2
+    },
+    "name": {
+     "tftp": 65
+    }
+   },
+   "ups": {
+    "enabled": {
+     "false": 62,
+     "true": 3
+    },
+    "name": {
+     "ups": 65
+    }
+   },
+   "webdav": {
+    "enabled": {
+     "false": 63,
+     "true": 2
+    },
+    "name": {
+     "webdav": 65
+    }
+   }
+  },
+  "shares": {
+   "AFP": {
+    "home": {
+     "false": 13
+    },
+    "nostat": {
+     "false": 13
+    },
+    "timemachine": {
+     "false": 8,
+     "true": 5
+    },
+    "type": {
+     "AFP": 13
+    },
+    "unixpriv": {
+     "false": 2,
+     "true": 11
+    },
+    "zerodev": {
+     "false": 13
+    }
+   },
+   "ISCSI": {
+    "blocksize": {
+     "4096": 3,
+     "512": 7
+    },
+    "filesize": {
+     "0": 7,
+     "214748364800": 1,
+     "536870912000": 1,
+     "549755813888": 1
+    },
+    "groups": {
+     "auth": {
+      "1": 2,
+      "2": 1
+     },
+     "authmethod": {
+      "CHAP": 2,
+      "NONE": 8
+     },
+     "initiator": {
+      "1": 7
+     },
+     "portal": {
+      "1": 10
+     }
+    },
+    "insecure_tpc": {
+     "true": 10
+    },
+    "iscsi_type": {
+     "DISK": 7,
+     "FILE": 3
+    },
+    "legacy": {
+     "false": 10
+    },
+    "mode": {
+     "ISCSI": 10
+    },
+    "pblocksize": {
+     "false": 10
+    },
+    "readonly": {
+     "false": 10
+    },
+    "rpm": {
+     "7200": 1,
+     "SSD": 9
+    },
+    "type": {
+     "ISCSI": 10
+    },
+    "xen": {
+     "false": 9,
+     "true": 1
+    }
+   },
+   "NFS": {
+    "alldirs": {
+     "false": 23,
+     "true": 28
+    },
+    "quiet": {
+     "false": 50,
+     "true": 1
+    },
+    "readonly": {
+     "false": 50,
+     "true": 1
+    },
+    "type": {
+     "NFS": 51
+    }
+   },
+   "SMB": {
+    "abe": {
+     "false": 131,
+     "true": 8
+    },
+    "browsable": {
+     "false": 4,
+     "true": 135
+    },
+    "guestok": {
+     "false": 79,
+     "true": 60
+    },
+    "guestonly": {
+     "false": 130,
+     "true": 9
+    },
+    "home": {
+     "false": 136,
+     "true": 3
+    },
+    "recyclebin": {
+     "false": 130,
+     "true": 9
+    },
+    "shadowcopy": {
+     "false": 126,
+     "true": 13
+    },
+    "timemachine": {
+     "false": 137,
+     "true": 2
+    },
+    "type": {
+     "SMB": 139
+    },
+    "vfsobjects": {
+     "catia": 1,
+     "fruit": 1,
+     "ixnas": 56,
+     "streams_xattr": 139,
+     "zfs_space": 93,
+     "zfsacl": 93
+    }
+   },
+   "WEBDAV": {
+    "changeperms": {
+     "true": 3
+    },
+    "readonly": {
+     "false": 3
+    },
+    "type": {
+     "WEBDAV": 3
+    }
+   }
+  },
+  "system": {
+   "datasets": {
+    "102": 1,
+    "107": 1,
+    "108": 1,
+    "11": 2,
+    "13": 2,
+    "15": 1,
+    "16": 1,
+    "18": 1,
+    "19": 2,
+    "20": 2,
+    "21": 1,
+    "23": 3,
+    "24": 1,
+    "26": 2,
+    "27": 1,
+    "28": 1,
+    "29": 3,
+    "30": 3,
+    "31": 1,
+    "32": 2,
+    "33": 1,
+    "36": 2,
+    "37": 1,
+    "40": 1,
+    "41": 2,
+    "42": 1,
+    "43": 2,
+    "45": 2,
+    "46": 3,
+    "47": 1,
+    "48": 1,
+    "49": 2,
+    "51": 1,
+    "52": 1,
+    "53": 2,
+    "54": 5,
+    "57": 1,
+    "65": 1,
+    "75": 1,
+    "89": 2
+   },
+   "snapshots": {
+    "1": 7,
+    "10": 2,
+    "11": 2,
+    "1143": 1,
+    "12": 3,
+    "13": 1,
+    "15": 3,
+    "1514": 1,
+    "1554": 1,
+    "16": 3,
+    "17": 3,
+    "18": 3,
+    "1918": 1,
+    "2": 3,
+    "21": 1,
+    "219": 1,
+    "22": 3,
+    "247": 1,
+    "25": 1,
+    "26": 1,
+    "266": 1,
+    "27": 1,
+    "28": 1,
+    "30": 1,
+    "34": 2,
+    "35": 1,
+    "36": 1,
+    "39": 1,
+    "4": 2,
+    "40": 1,
+    "5": 1,
+    "58": 1,
+    "59": 1,
+    "6": 2,
+    "655": 1,
+    "8": 2,
+    "9": 3
+   },
+   "users": {
+    "32": 1,
+    "33": 18,
+    "34": 21,
+    "35": 12,
+    "36": 8,
+    "37": 1,
+    "38": 2,
+    "41": 2
+   },
+   "zvols": {
+    "0": 45,
+    "1": 7,
+    "10": 1,
+    "2": 3,
+    "3": 2,
+    "4": 2,
+    "6": 1,
+    "7": 1,
+    "8": 1,
+    "9": 2
+   }
+  },
+  "version": {
+   "FreeNAS-11.3-INTERNAL-6": 1,
+   "FreeNAS-11.3-MASTER-201907161120": 1,
+   "FreeNAS-11.3-MASTER-201907171128": 1,
+   "FreeNAS-11.3-MASTER-201907191133": 1,
+   "FreeNAS-11.3-MASTER-201907201130": 1,
+   "FreeNAS-11.3-MASTER-201907251104": 1,
+   "FreeNAS-11.3-MASTER-201907260623": 1,
+   "FreeNAS-11.3-MASTER-201908030628": 1,
+   "FreeNAS-11.3-MASTER-201908031123": 1,
+   "FreeNAS-11.3-MASTER-201908091134": 1,
+   "FreeNAS-11.3-MASTER-201908141124": 1,
+   "FreeNAS-11.3-MASTER-201908180628": 1,
+   "FreeNAS-11.3-MASTER-201908221137": 1,
+   "FreeNAS-11.3-MASTER-201908241120": 2,
+   "FreeNAS-11.3-MASTER-201908281136": 1,
+   "FreeNAS-11.3-MASTER-201909030626": 1,
+   "FreeNAS-11.3-MASTER-201909041133": 1,
+   "FreeNAS-11.3-MASTER-201909041508": 1,
+   "FreeNAS-11.3-MASTER-201909051123": 1,
+   "FreeNAS-11.3-MASTER-201909060626": 1,
+   "FreeNAS-11.3-MASTER-201909070626": 1,
+   "FreeNAS-11.3-MASTER-201909100626": 1,
+   "FreeNAS-11.3-MASTER-201909120626": 2,
+   "FreeNAS-11.3-MASTER-201909141122": 1,
+   "FreeNAS-11.3-MASTER-201909160626": 1,
+   "FreeNAS-11.3-MASTER-201909170626": 1,
+   "FreeNAS-11.3-MASTER-201909180626": 1,
+   "FreeNAS-11.3-MASTER-201909191121": 4,
+   "FreeNAS-11.3-MASTER-201909201121": 1,
+   "FreeNAS-11.3-MASTER-201909231122": 4,
+   "FreeNAS-11.3-MASTER-201909241123": 1,
+   "FreeNAS-11.3-MASTER-201909260641": 1,
+   "FreeNAS-11.3-MASTER-201909271132": 1,
+   "FreeNAS-11.3-MASTER-201909272046": 2,
+   "FreeNAS-11.3-MASTER-201909290828": 1,
+   "FreeNAS-11.3-MASTER-201909291132": 2,
+   "FreeNAS-11.3-MASTER-201909301132": 2,
+   "FreeNAS-11.3-MASTER-201910011132": 2,
+   "FreeNAS-11.3-MASTER-201910030828": 1,
+   "FreeNAS-11.3-MASTER-201910031223": 3,
+   "FreeNAS-11.3-MASTER-201910040828": 2,
+   "FreeNAS-11.3-MASTER-201910041141": 2,
+   "FreeNAS-11.3-MASTER-201910050828": 1,
+   "FreeNAS-11.3-MASTER-201910051145": 1,
+   "FreeNAS-11.3-MASTER-201910060741": 1,
+   "FreeNAS-11.3-MASTER-201910060828": 2,
+   "FreeNAS-12.0-MASTER-201908290643": 1,
+   "FreeNAS-12.0-MASTER-201909130642": 1
+  },
+  "vms": {
+   "autostart": {
+    "false": 11,
+    "true": 21
+   },
+   "bootloader": {
+    "GRUB": 3,
+    "UEFI": 29
+   },
+   "disks": {
+    "0": 4,
+    "1": 27,
+    "2": 1
+   },
+   "memory": {
+    "0GB": 32
+   },
+   "nics": {
+    "1": 32
+   },
+   "time": {
+    "LOCAL": 32
+   },
+   "vcpus": {
+    "1": 4,
+    "12": 1,
+    "2": 20,
+    "4": 5,
+    "8": 2
+   },
+   "vnc_configs": {
+    "vnc_resolution": {
+     "1024x768": 26,
+     "1920x1080": 2,
+     "640x480": 1,
+     "800x600": 1
+    },
+    "wait": {
+     "false": 15,
+     "true": 15
+    },
+    "web": {
+     "true": 30
+    }
+   },
+   "vncs": {
+    "0": 2,
+    "1": 30
+   }
+  }
+ }
+}
