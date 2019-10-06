@@ -12,9 +12,8 @@ export class ChartTemplateComponent implements OnInit {
   public chartLabels = [];
   public chartData = [];
   public chartLabel: string;
-  type;
-
-  data: any;
+  public type;
+  public data: any;
 
   constructor(public chartdata: ChartdataService) { }
 

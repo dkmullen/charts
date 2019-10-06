@@ -1,4 +1,15 @@
 .nav-item {
     cursor: pointer;
-    color: rgb(72, 72, 184);
+    color: white;
+    background-color: gray;
+    margin: 5px;
+}
+.nav {
+  justify-content: center;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
+.nav-tabs {
+  border-bottom: unset;
 }
